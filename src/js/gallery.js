@@ -15,8 +15,19 @@ function onClickGallery(e) {
     removeItemBg(refs.item_man_small);
 
     if (document.body.clientWidth < 768) {
-      showCurrentPhoto(e.target, data_man_mobile, refs.source_mobile_man);
-    } else showCurrentPhoto(e.target, data_man_tablet, refs.source_tablet_man);
+      showCurrentPhoto(
+        e.target,
+        data_man_mobile,
+        refs.source_mobile_man,
+        refs.img_man
+      );
+    } else
+      showCurrentPhoto(
+        e.target,
+        data_man_tablet,
+        refs.source_tablet_man,
+        refs.img_man
+      );
   }
   if (e.target.classList.contains("woman-small-photo")) {
     removeItemBg(refs.item_woman_small);
@@ -28,12 +39,13 @@ function onClickGallery(e) {
   }
 }
 
-function showCurrentPhoto(el, data, source) {
+function showCurrentPhoto(el, data, source, img) {
   el.classList.add("on-show-photo");
   const current_id = el.dataset.id;
   const photo = data.find(({ id }) => current_id === id);
 
   if (photo.hasOwnProperty("man")) {
+    img.src = `${photo.man}`;
     source.srcset = `${photo.man}, ${photo.man_2x}`;
   } else source.srcset = `${photo.woman}, ${photo.woman_2x}`;
 }

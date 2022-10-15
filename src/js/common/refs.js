@@ -4,6 +4,7 @@ export default {
   source_tablet_man: document.querySelector(".source-tablet-man"),
   source_mobile_woman: document.querySelector(".source-mobile-woman"),
   source_tablet_woman: document.querySelector(".source-tablet-woman"),
+  img_man: document.querySelector(".img-man"),
   item_man_small: document.querySelectorAll(".man-small-photo"),
   item_woman_small: document.querySelectorAll(".woman-small-photo"),
 
