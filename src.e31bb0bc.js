@@ -473,7 +473,9 @@ var _galleryPhoto = require("./data/gallery-photo");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-_refs.default.box_gallery.addEventListener("click", onClickGallery);
+if (navigator.userAgent.match(/ipad|ipod|iphone/i)) {
+  _refs.default.box_gallery.addEventListener("touchstart", onClickGallery);
+} else _refs.default.box_gallery.addEventListener("click", onClickGallery);
 
 function onClickGallery(e) {
   if (e.target.classList.contains("man-small-photo")) {
@@ -13459,7 +13461,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "2500" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "12279" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -221,6 +221,7 @@ p {
   padding: 15px 20px;
   font-size: 18px;
   font-weight: 700;
+  color: var(--main-cl);
   background-color: var(--yellow-cl);
   border: none;
   border-radius: 3px;
