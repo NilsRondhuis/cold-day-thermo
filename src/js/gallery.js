@@ -6,8 +6,6 @@ import {
   data_woman_tablet,
 } from "./data/gallery-photo";
 
-console.dir(document.body);
-
 if (navigator.userAgent.match(/ipad|ipod|iphone/i)) {
   refs.box_gallery.addEventListener("touchstart", onClickGallery);
 } else refs.box_gallery.addEventListener("click", onClickGallery);
@@ -45,3 +43,11 @@ function removeItemBg(item) {
     el.classList.remove("on-show-photo");
   });
 }
+
+document.querySelector(
+  ".sizesWindow"
+).textContent = `innerWidth: ${window.innerWidth}`;
+
+document.querySelector(
+  ".sizesBody"
+).textContent = `clientWidth ${document.body.clientWidth}`;
