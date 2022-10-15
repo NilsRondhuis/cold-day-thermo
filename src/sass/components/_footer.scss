@@ -1,0 +1,54 @@
+.footer {
+  padding: 120px 0 50px 0;
+  background-color: var(--main-cl);
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-socials {
+  margin-bottom: 20px;
+
+  .item {
+    margin-bottom: 5px;
+
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+
+  .link {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-cl);
+  }
+
+  .icon {
+    width: 35px;
+    height: 35px;
+    fill: var(--white-cl);
+  }
+}
+
+.policy {
+  display: block;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: var(--white-cl);
+}
+
+.copy {
+  color: var(--white-cl);
+}
+
+@include for-size(desktop) {
+  .footer {
+    padding-top: 50px;
+  }
+}

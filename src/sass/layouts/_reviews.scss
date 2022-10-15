@@ -1,0 +1,44 @@
+.reviews {
+  background-color: #f9f9f9;
+}
+
+.reviews-slider {
+  position: relative;
+  padding-bottom: 50px;
+
+  .item {
+    display: flex;
+    justify-content: center;
+
+    &:nth-child(4) {
+      margin-top: 3px;
+    }
+  }
+
+  .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    background-color: var(--main-cl);
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+}
+
+@include for-size(desktop) {
+  .reviews-slider {
+    padding: 0 60px 50px 60px;
+
+    .swiper-button-prev,
+    .swiper-button-next {
+      top: 45%;
+      display: block;
+
+      &::after {
+        color: var(--main-cl);
+      }
+    }
+  }
+}

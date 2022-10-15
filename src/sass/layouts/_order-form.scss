@@ -1,0 +1,42 @@
+.order-form {
+  position: relative;
+  padding: 40px 0 555px 0;
+  background-image: url(../images/order-form/mobile/bg.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    background-image: url(../images/order-form/mobile/bg@2x.png);
+    background-size: cover;
+  }
+}
+
+.order-form-nav {
+  margin-bottom: 20px;
+}
+
+@include for-size(tablet) {
+  .order-form {
+    background-image: url(../images/order-form/tablet/bg.png);
+
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: url(../images/order-form/tablet/bg@2x.png);
+    }
+  }
+}
+
+@include for-size(desktop) {
+  .order-form {
+    background-image: url(../images/order-form/desktop/bg.png);
+
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: url(../images/order-form/desktop/bg@2x.png);
+    }
+  }
+}

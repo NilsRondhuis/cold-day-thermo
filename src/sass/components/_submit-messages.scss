@@ -1,0 +1,29 @@
+.submit-message {
+  position: fixed;
+  top: 5%;
+  left: -2%;
+  transform: translateX(-100%);
+  padding: 20px 10px 20px 20px;
+  width: 90%;
+  color: var(--white-cl);
+  border-right: 5px solid;
+  box-shadow: 4px 0px 8px 0px rgba(34, 60, 80, 0.2);
+  transition: all 250ms linear;
+  z-index: 5;
+
+  &.submit-message-success {
+    background-color: #37cb54;
+    border-color: #28983e;
+  }
+  &.submit-message-error {
+    background-color: var(--accent-cl);
+    border-color: #a50f1b;
+  }
+}
+
+.submit-message-success.is-show {
+  transform: translateY(0);
+}
+.submit-message-error.is-show {
+  transform: translateY(0);
+}

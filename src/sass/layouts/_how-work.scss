@@ -1,0 +1,106 @@
+.how-work {
+  color: var(--white-cl);
+  background-color: var(--main-cl);
+}
+
+.list-delivery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+  }
+
+  .box-icon {
+    margin-right: 15px;
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+
+    &.icon-form {
+      background-image: url(../images/icons/how-work/form.png);
+    }
+    &.icon-delivery {
+      background-image: url(../images/icons/how-work/delivery.png);
+    }
+    &.icon-courier {
+      background-image: url(../images/icons/how-work/courier.png);
+    }
+  }
+
+  .text {
+    font-size: 12px;
+    width: 230px;
+  }
+}
+
+@include for-size(tablet) {
+  .how-work {
+    background-image: linear-gradient(
+        195deg,
+        rgba(34, 34, 34, 0.8) 0%,
+        rgba(34, 34, 34, 0.8) 100%
+      ),
+      url(../images/how-work/tablet/bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          195deg,
+          rgba(34, 34, 34, 0.8) 0%,
+          rgba(34, 34, 34, 0.8) 100%
+        ),
+        url(../images/how-work/tablet/bg@2x.png);
+    }
+  }
+
+  .how-work-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .how-work-btn {
+    margin: 0;
+  }
+}
+
+@include for-size(desktop) {
+  .how-work {
+    background-image: linear-gradient(
+        195deg,
+        rgba(34, 34, 34, 0.8) 0%,
+        rgba(34, 34, 34, 0.8) 100%
+      ),
+      url(../images/how-work/desktop/bg.png);
+
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          195deg,
+          rgba(34, 34, 34, 0.8) 0%,
+          rgba(34, 34, 34, 0.8) 100%
+        ),
+        url(../images/how-work/desktop/bg@2x.png);
+    }
+  }
+  .list-delivery .text {
+    font-size: 18px;
+    width: 345px;
+  }
+}

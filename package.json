@@ -1,0 +1,25 @@
+{
+  "name": "my-temlate-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://NilsRondhuis.github.io/my-temlate-parcel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /my-temlate-parcel/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "keywords": [],
+  "author": "Nils Rondhuis",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.50.1"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0",
+    "parcel-bundler": "^1.12.5",
+    "postcss": "^7.0.39",
+    "swiper": "^8.4.4"
+  }
+}

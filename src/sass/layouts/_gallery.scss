@@ -1,0 +1,127 @@
+.gallery-title {
+  text-align: center;
+}
+
+.box-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery-slider {
+  width: 300px;
+
+  &:not(:last-child) {
+    margin-bottom: 70px;
+  }
+}
+
+.gallery-list-content {
+  margin-bottom: 20px;
+
+  .text .bold {
+    font-weight: 700;
+  }
+}
+
+.gallery-photo {
+  margin-bottom: 20px;
+}
+
+.gallery-photo .list-small-photo {
+  display: flex;
+
+  .item {
+    position: relative;
+    border-top: 3px solid var(--white-cl);
+    cursor: pointer;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.5) 0%,
+        rgba(255, 255, 255, 0.5) 100%
+      );
+      transition: all 250ms linear;
+    }
+  }
+}
+
+.gallery-photo .list-small-photo .item.on-show-photo {
+  &::after {
+    opacity: 0;
+  }
+}
+
+.gallery-price {
+  margin-bottom: 20px;
+}
+
+.gallery-price {
+  background-image: url(../images/icons/colum/temp.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: 105px;
+
+  .old-price-sale {
+    display: flex;
+  }
+  .old-price {
+    margin-right: 15px;
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: line-through;
+  }
+  .sale {
+    align-self: flex-start;
+    padding: 5px;
+    background-color: var(--main-cl);
+    border-radius: 3px;
+    color: var(--white-cl);
+  }
+  .new-price {
+    font-size: 34px;
+    font-weight: 700;
+    color: var(--accent-cl);
+  }
+}
+
+@include for-size(tablet) {
+  .gallery-slider {
+    width: 500px;
+  }
+
+  .gallery-photo {
+    display: flex;
+  }
+
+  .gallery-photo .list-small-photo {
+    flex-direction: column;
+
+    .item {
+      border-left: 3px solid var(--white-cl);
+      border-top: none;
+    }
+  }
+
+  .gallery-price {
+    background-size: 170px;
+  }
+}
+
+@include for-size(desktop) {
+  .box-gallery {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .gallery-slider:not(:last-child) {
+    margin: 0;
+  }
+}

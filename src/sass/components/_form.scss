@@ -1,0 +1,158 @@
+.form {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px 30px 20px;
+  width: 305px;
+  background-color: var(--white-cl);
+  border-radius: 10px;
+
+  .form-title {
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent-cl);
+  }
+
+  .form-text {
+    margin-bottom: 10px;
+
+    .old-price {
+      font-weight: 700;
+      text-decoration: line-through;
+    }
+    .new-price {
+      font-weight: 700;
+      color: var(--accent-cl);
+    }
+  }
+
+  .form-label {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .placeholder {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    .required {
+      color: var(--accent-cl);
+    }
+  }
+
+  .input {
+    padding: 10px 45px 10px 10px;
+    width: 100%;
+    border: 2px solid #acc6d4;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 225px center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    outline-color: #438dbf;
+  }
+}
+
+.box-message {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  width: 150px;
+  height: 50px;
+  background-color: var(--accent-cl);
+  border-radius: 6px;
+
+  &.name-box-message {
+    top: -60px;
+    left: 0;
+  }
+  &.tel-box-message {
+    top: 50px;
+    left: 0;
+  }
+
+  .message {
+    font-size: 12px;
+    line-height: 1.1;
+    color: var(--white-cl);
+  }
+
+  .icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    fill: var(--accent-cl);
+
+    &.name-message-icon {
+      top: 75%;
+      left: 0;
+      transform: rotate(-150deg);
+    }
+    &.tel-message-icon {
+      top: -13%;
+      left: 5px;
+      transform: rotate(30deg);
+    }
+  }
+}
+
+.form .input.error {
+  background-image: url(../images/icons/form/cross.png);
+}
+.form .input.success {
+  background-image: url(../images/icons/form/check.png);
+}
+
+@include for-size(tablet) {
+  .form {
+    width: 390px;
+
+    .form-title {
+      font-size: 17px;
+    }
+
+    .input {
+      background-position: 310px center;
+    }
+  }
+}
+
+@include for-size(desktop) {
+  .form {
+    top: 45%;
+  }
+
+  .box-message {
+    height: 55px;
+
+    &.name-box-message {
+      top: -70px;
+      left: 0;
+    }
+    &.tel-box-message {
+      top: 60px;
+    }
+
+    .message {
+      font-size: 14px;
+    }
+
+    .icon {
+      &.name-message-icon {
+        top: 85%;
+      }
+      &.tel-message-icon {
+        top: -20%;
+      }
+    }
+  }
+}

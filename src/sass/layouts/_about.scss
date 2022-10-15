@@ -1,0 +1,76 @@
+.about {
+  background-image: linear-gradient(
+    180deg,
+    rgba(34, 34, 34, 1) 0%,
+    rgba(67, 87, 118, 1) 100%
+  );
+
+  .box-img {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+
+    img {
+      align-self: flex-start;
+    }
+  }
+
+  .text {
+    text-align: justify;
+    color: var(--white-cl);
+  }
+
+  .text .parag {
+    display: inline-block;
+
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.about-title {
+  color: var(--white-cl);
+}
+
+@include for-size(tablet) {
+  .about .box-content {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .item {
+      flex-basis: calc((100% - 1 * 20px) / 2);
+    }
+
+    .box-img {
+      margin: 0;
+    }
+  }
+}
+
+@include for-size(desktop) {
+  .about {
+    background-image: linear-gradient(
+        180deg,
+        rgba(34, 34, 34, 0.9) 0%,
+        rgba(34, 34, 34, 0.9) 100%
+      ),
+      url(../images/about/desktop/bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          180deg,
+          rgba(34, 34, 34, 0.9) 0%,
+          rgba(34, 34, 34, 0.9) 100%
+        ),
+        url(../images/about/desktop/bg@2x.png);
+      background-size: cover;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.order-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 20px;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: var(--yellow-cl);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 0px 12px 20px -5px rgba(34, 60, 80, 0.2);
+  transition: all 250ms linear;
+}

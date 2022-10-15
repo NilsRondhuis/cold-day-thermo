@@ -1,0 +1,17 @@
+.main-title {
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  text-align: center;
+
+  @include for-size(tablet) {
+    font-size: 34px;
+  }
+
+  @include for-size(desktop) {
+    font-size: 41px;
+  }
+}
