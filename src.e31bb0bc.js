@@ -417,6 +417,7 @@ var _default = {
   source_tablet_man: document.querySelector(".source-tablet-man"),
   source_mobile_woman: document.querySelector(".source-mobile-woman"),
   source_tablet_woman: document.querySelector(".source-tablet-woman"),
+  img_man: document.querySelector(".img-man"),
   item_man_small: document.querySelectorAll(".man-small-photo"),
   item_woman_small: document.querySelectorAll(".woman-small-photo"),
   form: document.querySelector(".form"),
@@ -482,8 +483,8 @@ function onClickGallery(e) {
     removeItemBg(_refs.default.item_man_small);
 
     if (document.body.clientWidth < 768) {
-      showCurrentPhoto(e.target, _galleryPhoto.data_man_mobile, _refs.default.source_mobile_man);
-    } else showCurrentPhoto(e.target, _galleryPhoto.data_man_tablet, _refs.default.source_tablet_man);
+      showCurrentPhoto(e.target, _galleryPhoto.data_man_mobile, _refs.default.source_mobile_man, _refs.default.img_man);
+    } else showCurrentPhoto(e.target, _galleryPhoto.data_man_tablet, _refs.default.source_tablet_man, _refs.default.img_man);
   }
 
   if (e.target.classList.contains("woman-small-photo")) {
@@ -495,7 +496,7 @@ function onClickGallery(e) {
   }
 }
 
-function showCurrentPhoto(el, data, source) {
+function showCurrentPhoto(el, data, source, img) {
   el.classList.add("on-show-photo");
   const current_id = el.dataset.id;
   const photo = data.find(_ref => {
@@ -506,6 +507,7 @@ function showCurrentPhoto(el, data, source) {
   });
 
   if (photo.hasOwnProperty("man")) {
+    img.src = `${photo.man}`;
     source.srcset = `${photo.man}, ${photo.man_2x}`;
   } else source.srcset = `${photo.woman}, ${photo.woman_2x}`;
 }
