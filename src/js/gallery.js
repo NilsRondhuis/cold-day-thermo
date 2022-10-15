@@ -43,11 +43,3 @@ function removeItemBg(item) {
     el.classList.remove("on-show-photo");
   });
 }
-
-document.querySelector(
-  ".sizesWindow"
-).textContent = `innerWidth: ${window.innerWidth}`;
-
-document.querySelector(
-  ".sizesBody"
-).textContent = `clientWidth ${document.body.clientWidth}`;
