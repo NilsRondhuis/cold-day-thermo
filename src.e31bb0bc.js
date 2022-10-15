@@ -515,9 +515,6 @@ function removeItemBg(item) {
     el.classList.remove("on-show-photo");
   });
 }
-
-document.querySelector(".sizesWindow").textContent = `innerWidth: ${window.innerWidth}`;
-document.querySelector(".sizesBody").textContent = `clientWidth ${document.body.clientWidth}`;
 },{"./common/refs":"js/common/refs.js","./data/gallery-photo":"js/data/gallery-photo.js"}],"../node_modules/ssr-window/ssr-window.esm.js":[function(require,module,exports) {
 "use strict";
 
