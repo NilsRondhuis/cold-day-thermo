@@ -473,8 +473,6 @@ var _galleryPhoto = require("./data/gallery-photo");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-console.dir(document.body);
-
 if (navigator.userAgent.match(/ipad|ipod|iphone/i)) {
   _refs.default.box_gallery.addEventListener("touchstart", onClickGallery);
 } else _refs.default.box_gallery.addEventListener("click", onClickGallery);
@@ -517,6 +515,9 @@ function removeItemBg(item) {
     el.classList.remove("on-show-photo");
   });
 }
+
+document.querySelector(".sizesWindow").textContent = `innerWidth: ${window.innerWidth}`;
+document.querySelector(".sizesBody").textContent = `clientWidth ${document.body.clientWidth}`;
 },{"./common/refs":"js/common/refs.js","./data/gallery-photo":"js/data/gallery-photo.js"}],"../node_modules/ssr-window/ssr-window.esm.js":[function(require,module,exports) {
 "use strict";
 
