@@ -473,6 +473,8 @@ var _galleryPhoto = require("./data/gallery-photo");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+console.dir(document.body);
+
 if (navigator.userAgent.match(/ipad|ipod|iphone/i)) {
   _refs.default.box_gallery.addEventListener("touchstart", onClickGallery);
 } else _refs.default.box_gallery.addEventListener("click", onClickGallery);
@@ -481,7 +483,7 @@ function onClickGallery(e) {
   if (e.target.classList.contains("man-small-photo")) {
     removeItemBg(_refs.default.item_man_small);
 
-    if (window.innerWidth < 768) {
+    if (document.body.clientWidth < 768) {
       showCurrentPhoto(e.target, _galleryPhoto.data_man_mobile, _refs.default.source_mobile_man);
     } else showCurrentPhoto(e.target, _galleryPhoto.data_man_tablet, _refs.default.source_tablet_man);
   }
@@ -489,7 +491,7 @@ function onClickGallery(e) {
   if (e.target.classList.contains("woman-small-photo")) {
     removeItemBg(_refs.default.item_woman_small);
 
-    if (window.innerWidth < 768) {
+    if (document.body.clientWidth < 768) {
       showCurrentPhoto(e.target, _galleryPhoto.data_woman_mobile, _refs.default.source_mobile_woman);
     } else showCurrentPhoto(e.target, _galleryPhoto.data_woman_tablet, _refs.default.source_tablet_woman);
   }
@@ -13461,7 +13463,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "12279" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "14265" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
