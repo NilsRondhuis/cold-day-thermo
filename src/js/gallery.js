@@ -6,6 +6,8 @@ import {
   data_woman_tablet,
 } from "./data/gallery-photo";
 
+console.dir(document.body);
+
 if (navigator.userAgent.match(/ipad|ipod|iphone/i)) {
   refs.box_gallery.addEventListener("touchstart", onClickGallery);
 } else refs.box_gallery.addEventListener("click", onClickGallery);
@@ -14,14 +16,14 @@ function onClickGallery(e) {
   if (e.target.classList.contains("man-small-photo")) {
     removeItemBg(refs.item_man_small);
 
-    if (window.innerWidth < 768) {
+    if (document.body.clientWidth < 768) {
       showCurrentPhoto(e.target, data_man_mobile, refs.source_mobile_man);
     } else showCurrentPhoto(e.target, data_man_tablet, refs.source_tablet_man);
   }
   if (e.target.classList.contains("woman-small-photo")) {
     removeItemBg(refs.item_woman_small);
 
-    if (window.innerWidth < 768) {
+    if (document.body.clientWidth < 768) {
       showCurrentPhoto(e.target, data_woman_mobile, refs.source_mobile_woman);
     } else
       showCurrentPhoto(e.target, data_woman_tablet, refs.source_tablet_woman);
