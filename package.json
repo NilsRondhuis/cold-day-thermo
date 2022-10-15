@@ -1,12 +1,12 @@
 {
-  "name": "my-temlate-parcel",
+  "name": "cold-day-thermo",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://NilsRondhuis.github.io/my-temlate-parcel",
+  "homepage": "https://NilsRondhuis.github.io/cold-day-thermo",
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /my-temlate-parcel/",
+    "build": "parcel build src/*.html --public-url /cold-day-thermo/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
@@ -23,3 +23,5 @@
     "swiper": "^8.4.4"
   }
 }
+
+
