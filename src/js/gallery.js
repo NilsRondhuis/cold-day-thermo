@@ -6,7 +6,9 @@ import {
   data_woman_tablet,
 } from "./data/gallery-photo";
 
-refs.box_gallery.addEventListener("click", onClickGallery);
+if (navigator.userAgent.match(/ipad|ipod|iphone/i)) {
+  refs.box_gallery.addEventListener("touchstart", onClickGallery);
+} else refs.box_gallery.addEventListener("click", onClickGallery);
 
 function onClickGallery(e) {
   if (e.target.classList.contains("man-small-photo")) {
