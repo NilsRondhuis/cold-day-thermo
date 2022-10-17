@@ -1,53 +1,35 @@
 import refs from "./common/refs";
-import {
-  data_man_mobile,
-  data_man_tablet,
-  data_woman_mobile,
-  data_woman_tablet,
-} from "./data/gallery-photo";
+import { data_man_tablet, data_woman_tablet } from "./data/gallery-photo";
 
-if (navigator.userAgent.match(/ipad|ipod|iphone/i)) {
-  refs.box_gallery.addEventListener("touchstart", onClickGallery);
-} else refs.box_gallery.addEventListener("click", onClickGallery);
+refs.box_gallery.addEventListener("click", onClickGallery);
 
 function onClickGallery(e) {
   if (e.target.classList.contains("man-small-photo")) {
     removeItemBg(refs.item_man_small);
 
-    if (document.body.clientWidth < 768) {
-      showCurrentPhoto(
-        e.target,
-        data_man_mobile,
-        refs.source_mobile_man,
-        refs.img_man
-      );
-    } else
-      showCurrentPhoto(
-        e.target,
-        data_man_tablet,
-        refs.source_tablet_man,
-        refs.img_man
-      );
+    showCurrentPhoto(e.target, data_man_tablet, refs.img_large_man);
   }
   if (e.target.classList.contains("woman-small-photo")) {
     removeItemBg(refs.item_woman_small);
 
-    if (document.body.clientWidth < 768) {
-      showCurrentPhoto(e.target, data_woman_mobile, refs.source_mobile_woman);
-    } else
-      showCurrentPhoto(e.target, data_woman_tablet, refs.source_tablet_woman);
+    showCurrentPhoto(e.target, data_woman_tablet, refs.img_large_woman);
   }
 }
 
-function showCurrentPhoto(el, data, source, img) {
+function showCurrentPhoto(el, data, img) {
   el.classList.add("on-show-photo");
   const current_id = el.dataset.id;
   const photo = data.find(({ id }) => current_id === id);
 
   if (photo.hasOwnProperty("man")) {
-    img.src = `${photo.man}`;
-    source.srcset = `${photo.man}, ${photo.man_2x}`;
-  } else source.srcset = `${photo.woman}, ${photo.woman_2x}`;
+    img.src = photo.man;
+    img.srcset = `${photo.man} 1x, ${photo.man_2x} 2x`;
+    img.alt = photo.name;
+  } else {
+    img.src = photo.woman;
+    img.srcset = `${photo.woman} 1x, ${photo.woman_2x} 2x`;
+    img.alt = photo.name;
+  }
 }
 
 function removeItemBg(item) {
