@@ -1,9 +1,5 @@
 export default {
   box_gallery: document.querySelector(".box-gallery"),
-  // source_mobile_man: document.querySelector(".source-mobile-man"),
-  // source_tablet_man: document.querySelector(".source-tablet-man"),
-  // source_mobile_woman: document.querySelector(".source-mobile-woman"),
-  // source_tablet_woman: document.querySelector(".source-tablet-woman"),
   img_large_man: document.querySelector(".img-large-man"),
   img_large_woman: document.querySelector(".img-large-woman"),
   item_man_small: document.querySelectorAll(".man-small-photo"),
