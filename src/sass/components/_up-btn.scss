@@ -1,0 +1,31 @@
+.up-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  transform: translateY(150%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    150deg,
+    rgba(49, 90, 143, 1) 0%,
+    rgba(172, 198, 212, 1) 100%
+  );
+  box-shadow: 0px 2px 15px 0px rgba(34, 60, 80, 0.3);
+  transition: all 150ms linear;
+  cursor: pointer;
+  z-index: 10;
+
+  .icon {
+    width: 25px;
+    height: 25px;
+    fill: var(--white-cl);
+  }
+
+  &.up-btn__is-show {
+    transform: translateY(0);
+  }
+}

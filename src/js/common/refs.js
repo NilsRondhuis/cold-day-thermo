@@ -18,4 +18,6 @@ export default {
   submit_btn: document.querySelector(".submit-btn"),
   submit_message_success: document.querySelector(".submit-message-success"),
   submit_message_error: document.querySelector(".submit-message-error"),
+
+  up_btn: document.querySelector(".up-btn"),
 };

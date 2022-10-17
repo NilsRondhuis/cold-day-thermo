@@ -11,4 +11,12 @@
   cursor: pointer;
   box-shadow: 0px 12px 20px -5px rgba(34, 60, 80, 0.2);
   transition: all 250ms linear;
+
+  &:active {
+    background-color: var(--white-cl);
+  }
+
+  &:disabled {
+    opacity: 0.7;
+  }
 }
