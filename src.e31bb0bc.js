@@ -194,81 +194,81 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\images\\icons\\form\\cross.png":[["cross.941452fd.png","images/icons/form/cross.png"],"images/icons/form/cross.png"],"./..\\images\\icons\\form\\check.png":[["check.08538fc9.png","images/icons/form/check.png"],"images/icons/form/check.png"],"./..\\images\\hero\\mobile\\item-1.png":[["item-1.b5f28c89.png","images/hero/mobile/item-1.png"],"images/hero/mobile/item-1.png"],"./..\\images\\hero\\mobile\\item-1@2x.png":[["item-1@2x.ba127519.png","images/hero/mobile/item-1@2x.png"],"images/hero/mobile/item-1@2x.png"],"./..\\images\\hero\\tablet\\item-1.png":[["item-1.cf869039.png","images/hero/tablet/item-1.png"],"images/hero/tablet/item-1.png"],"./..\\images\\hero\\tablet\\item-1@2x.png":[["item-1@2x.77f5fa21.png","images/hero/tablet/item-1@2x.png"],"images/hero/tablet/item-1@2x.png"],"./..\\images\\hero\\desktop\\item-1.png":[["item-1.232ca4cf.png","images/hero/desktop/item-1.png"],"images/hero/desktop/item-1.png"],"./..\\images\\hero\\desktop\\item-1@2x.png":[["item-1@2x.b70d808a.png","images/hero/desktop/item-1@2x.png"],"images/hero/desktop/item-1@2x.png"],"./..\\images\\about\\desktop\\bg.png":[["bg.c0426cc1.png","images/about/desktop/bg.png"],"images/about/desktop/bg.png"],"./..\\images\\about\\desktop\\bg@2x.png":[["bg@2x.c8d23038.png","images/about/desktop/bg@2x.png"],"images/about/desktop/bg@2x.png"],"./..\\images\\icons\\colum\\temp.png":[["temp.774a80e8.png","images/icons/colum/temp.png"],"images/icons/colum/temp.png"],"./..\\images\\table\\desktop\\bg.png":[["bg.e356337b.png","images/table/desktop/bg.png"],"images/table/desktop/bg.png"],"./..\\images\\table\\desktop\\bg@2x.png":[["bg@2x.09c0189a.png","images/table/desktop/bg@2x.png"],"images/table/desktop/bg@2x.png"],"./..\\images\\icons\\how-work\\form.png":[["form.76001d0e.png","images/icons/how-work/form.png"],"images/icons/how-work/form.png"],"./..\\images\\icons\\how-work\\delivery.png":[["delivery.fc6b2825.png","images/icons/how-work/delivery.png"],"images/icons/how-work/delivery.png"],"./..\\images\\icons\\how-work\\courier.png":[["courier.89d75a8d.png","images/icons/how-work/courier.png"],"images/icons/how-work/courier.png"],"./..\\images\\how-work\\tablet\\bg.png":[["bg.4eac925a.png","images/how-work/tablet/bg.png"],"images/how-work/tablet/bg.png"],"./..\\images\\how-work\\tablet\\bg@2x.png":[["bg@2x.77a5cd73.png","images/how-work/tablet/bg@2x.png"],"images/how-work/tablet/bg@2x.png"],"./..\\images\\how-work\\desktop\\bg.png":[["bg.9ee7d023.png","images/how-work/desktop/bg.png"],"images/how-work/desktop/bg.png"],"./..\\images\\how-work\\desktop\\bg@2x.png":[["bg@2x.40ad8720.png","images/how-work/desktop/bg@2x.png"],"images/how-work/desktop/bg@2x.png"],"./..\\images\\order-form\\mobile\\bg.png":[["bg.e44e7a03.png","images/order-form/mobile/bg.png"],"images/order-form/mobile/bg.png"],"./..\\images\\order-form\\mobile\\bg@2x.png":[["bg@2x.0484ae8b.png","images/order-form/mobile/bg@2x.png"],"images/order-form/mobile/bg@2x.png"],"./..\\images\\order-form\\tablet\\bg.png":[["bg.a4b98e47.png","images/order-form/tablet/bg.png"],"images/order-form/tablet/bg.png"],"./..\\images\\order-form\\tablet\\bg@2x.png":[["bg@2x.0521f424.png","images/order-form/tablet/bg@2x.png"],"images/order-form/tablet/bg@2x.png"],"./..\\images\\order-form\\desktop\\bg.png":[["bg.3f859f5a.png","images/order-form/desktop/bg.png"],"images/order-form/desktop/bg.png"],"./..\\images\\order-form\\desktop\\bg@2x.png":[["bg@2x.bbef9184.png","images/order-form/desktop/bg@2x.png"],"images/order-form/desktop/bg@2x.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"images/gallery/tablet/colum/man-large-1.jpg":[function(require,module,exports) {
-module.exports = "/man-large-1.7be89acc.jpg";
-},{}],"images/gallery/tablet/colum/man-large-2.jpg":[function(require,module,exports) {
-module.exports = "/man-large-2.a1b70ca2.jpg";
-},{}],"images/gallery/tablet/colum/man-large-3.jpg":[function(require,module,exports) {
-module.exports = "/man-large-3.c3351885.jpg";
-},{}],"images/gallery/tablet/colum/man-large-4.jpg":[function(require,module,exports) {
-module.exports = "/man-large-4.a5354cb6.jpg";
-},{}],"images/gallery/tablet/colum/man-large-1@2x.jpg":[function(require,module,exports) {
-module.exports = "/man-large-1@2x.729bfe67.jpg";
-},{}],"images/gallery/tablet/colum/man-large-2@2x.jpg":[function(require,module,exports) {
-module.exports = "/man-large-2@2x.31578546.jpg";
-},{}],"images/gallery/tablet/colum/man-large-3@2x.jpg":[function(require,module,exports) {
-module.exports = "/man-large-3@2x.45072567.jpg";
-},{}],"images/gallery/tablet/colum/man-large-4@2x.jpg":[function(require,module,exports) {
-module.exports = "/man-large-4@2x.790dcbd4.jpg";
-},{}],"images/gallery/tablet/colum/woman-large-1.jpg":[function(require,module,exports) {
-module.exports = "/woman-large-1.5fb24fd4.jpg";
-},{}],"images/gallery/tablet/colum/woman-large-2.jpg":[function(require,module,exports) {
-module.exports = "/woman-large-2.db18dd60.jpg";
-},{}],"images/gallery/tablet/colum/woman-large-3.jpg":[function(require,module,exports) {
-module.exports = "/woman-large-3.d7d3d4c1.jpg";
-},{}],"images/gallery/tablet/colum/woman-large-4.jpg":[function(require,module,exports) {
-module.exports = "/woman-large-4.5ab57ef1.jpg";
-},{}],"images/gallery/tablet/colum/woman-large-1@2x.jpg":[function(require,module,exports) {
-module.exports = "/woman-large-1@2x.a0011dc6.jpg";
-},{}],"images/gallery/tablet/colum/woman-large-2@2x.jpg":[function(require,module,exports) {
-module.exports = "/woman-large-2@2x.c3e5409d.jpg";
-},{}],"images/gallery/tablet/colum/woman-large-3@2x.jpg":[function(require,module,exports) {
-module.exports = "/woman-large-3@2x.39aa2ccb.jpg";
-},{}],"images/gallery/tablet/colum/woman-large-4@2x.jpg":[function(require,module,exports) {
-module.exports = "/woman-large-4@2x.f6b05ce6.jpg";
+},{"./..\\images\\icons\\form\\cross.png":[["cross.941452fd.png","images/icons/form/cross.png"],"images/icons/form/cross.png"],"./..\\images\\icons\\form\\check.png":[["check.08538fc9.png","images/icons/form/check.png"],"images/icons/form/check.png"],"./..\\images\\hero\\mobile\\item-1.png":[["item-1.b5f28c89.png","images/hero/mobile/item-1.png"],"images/hero/mobile/item-1.png"],"./..\\images\\hero\\mobile\\item-1@2x.png":[["item-1@2x.ba127519.png","images/hero/mobile/item-1@2x.png"],"images/hero/mobile/item-1@2x.png"],"./..\\images\\hero\\tablet\\item-1.png":[["item-1.cf869039.png","images/hero/tablet/item-1.png"],"images/hero/tablet/item-1.png"],"./..\\images\\hero\\tablet\\item-1@2x.png":[["item-1@2x.77f5fa21.png","images/hero/tablet/item-1@2x.png"],"images/hero/tablet/item-1@2x.png"],"./..\\images\\hero\\desktop\\item-1.png":[["item-1.232ca4cf.png","images/hero/desktop/item-1.png"],"images/hero/desktop/item-1.png"],"./..\\images\\hero\\desktop\\item-1@2x.png":[["item-1@2x.b70d808a.png","images/hero/desktop/item-1@2x.png"],"images/hero/desktop/item-1@2x.png"],"./..\\images\\about\\desktop\\bg.png":[["bg.c0426cc1.png","images/about/desktop/bg.png"],"images/about/desktop/bg.png"],"./..\\images\\about\\desktop\\bg@2x.png":[["bg@2x.c8d23038.png","images/about/desktop/bg@2x.png"],"images/about/desktop/bg@2x.png"],"./..\\images\\icons\\colum\\temp.png":[["temp.774a80e8.png","images/icons/colum/temp.png"],"images/icons/colum/temp.png"],"./..\\images\\table\\desktop\\bg.png":[["bg.e356337b.png","images/table/desktop/bg.png"],"images/table/desktop/bg.png"],"./..\\images\\table\\desktop\\bg@2x.png":[["bg@2x.09c0189a.png","images/table/desktop/bg@2x.png"],"images/table/desktop/bg@2x.png"],"./..\\images\\icons\\how-work\\form.png":[["form.76001d0e.png","images/icons/how-work/form.png"],"images/icons/how-work/form.png"],"./..\\images\\icons\\how-work\\delivery.png":[["delivery.fc6b2825.png","images/icons/how-work/delivery.png"],"images/icons/how-work/delivery.png"],"./..\\images\\icons\\how-work\\courier.png":[["courier.89d75a8d.png","images/icons/how-work/courier.png"],"images/icons/how-work/courier.png"],"./..\\images\\how-work\\tablet\\bg.png":[["bg.4eac925a.png","images/how-work/tablet/bg.png"],"images/how-work/tablet/bg.png"],"./..\\images\\how-work\\tablet\\bg@2x.png":[["bg@2x.77a5cd73.png","images/how-work/tablet/bg@2x.png"],"images/how-work/tablet/bg@2x.png"],"./..\\images\\how-work\\desktop\\bg.png":[["bg.9ee7d023.png","images/how-work/desktop/bg.png"],"images/how-work/desktop/bg.png"],"./..\\images\\how-work\\desktop\\bg@2x.png":[["bg@2x.40ad8720.png","images/how-work/desktop/bg@2x.png"],"images/how-work/desktop/bg@2x.png"],"./..\\images\\order-form\\mobile\\bg.png":[["bg.e44e7a03.png","images/order-form/mobile/bg.png"],"images/order-form/mobile/bg.png"],"./..\\images\\order-form\\mobile\\bg@2x.png":[["bg@2x.0484ae8b.png","images/order-form/mobile/bg@2x.png"],"images/order-form/mobile/bg@2x.png"],"./..\\images\\order-form\\tablet\\bg.png":[["bg.a4b98e47.png","images/order-form/tablet/bg.png"],"images/order-form/tablet/bg.png"],"./..\\images\\order-form\\tablet\\bg@2x.png":[["bg@2x.0521f424.png","images/order-form/tablet/bg@2x.png"],"images/order-form/tablet/bg@2x.png"],"./..\\images\\order-form\\desktop\\bg.png":[["bg.3f859f5a.png","images/order-form/desktop/bg.png"],"images/order-form/desktop/bg.png"],"./..\\images\\order-form\\desktop\\bg@2x.png":[["bg@2x.bbef9184.png","images/order-form/desktop/bg@2x.png"],"images/order-form/desktop/bg@2x.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"images/gallery/large/man-large-1.jpg":[function(require,module,exports) {
+module.exports = "/man-large-1.c8b406e5.jpg";
+},{}],"images/gallery/large/man-large-2.jpg":[function(require,module,exports) {
+module.exports = "/man-large-2.dca1bee8.jpg";
+},{}],"images/gallery/large/man-large-3.jpg":[function(require,module,exports) {
+module.exports = "/man-large-3.ff15c511.jpg";
+},{}],"images/gallery/large/man-large-4.jpg":[function(require,module,exports) {
+module.exports = "/man-large-4.e20e9ee4.jpg";
+},{}],"images/gallery/large/man-large-1@2x.jpg":[function(require,module,exports) {
+module.exports = "/man-large-1@2x.8e0f062a.jpg";
+},{}],"images/gallery/large/man-large-2@2x.jpg":[function(require,module,exports) {
+module.exports = "/man-large-2@2x.df4fd234.jpg";
+},{}],"images/gallery/large/man-large-3@2x.jpg":[function(require,module,exports) {
+module.exports = "/man-large-3@2x.632a9795.jpg";
+},{}],"images/gallery/large/man-large-4@2x.jpg":[function(require,module,exports) {
+module.exports = "/man-large-4@2x.18521560.jpg";
+},{}],"images/gallery/large/woman-large-1.jpg":[function(require,module,exports) {
+module.exports = "/woman-large-1.e53faa03.jpg";
+},{}],"images/gallery/large/woman-large-2.jpg":[function(require,module,exports) {
+module.exports = "/woman-large-2.450348bc.jpg";
+},{}],"images/gallery/large/woman-large-3.jpg":[function(require,module,exports) {
+module.exports = "/woman-large-3.859a9bdd.jpg";
+},{}],"images/gallery/large/woman-large-4.jpg":[function(require,module,exports) {
+module.exports = "/woman-large-4.339ce776.jpg";
+},{}],"images/gallery/large/woman-large-1@2x.jpg":[function(require,module,exports) {
+module.exports = "/woman-large-1@2x.482cb4b5.jpg";
+},{}],"images/gallery/large/woman-large-2@2x.jpg":[function(require,module,exports) {
+module.exports = "/woman-large-2@2x.912e6772.jpg";
+},{}],"images/gallery/large/woman-large-3@2x.jpg":[function(require,module,exports) {
+module.exports = "/woman-large-3@2x.35c14f71.jpg";
+},{}],"images/gallery/large/woman-large-4@2x.jpg":[function(require,module,exports) {
+module.exports = "/woman-large-4@2x.50faf965.jpg";
 },{}],"js/data/gallery-photo.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.data_woman_tablet = exports.data_man_tablet = void 0;
+exports.data_woman = exports.data_man = void 0;
 
-var _manLarge = _interopRequireDefault(require("../../images/gallery/tablet/colum/man-large-1.jpg"));
+var _manLarge = _interopRequireDefault(require("../../images/gallery/large/man-large-1.jpg"));
 
-var _manLarge2 = _interopRequireDefault(require("../../images/gallery/tablet/colum/man-large-2.jpg"));
+var _manLarge2 = _interopRequireDefault(require("../../images/gallery/large/man-large-2.jpg"));
 
-var _manLarge3 = _interopRequireDefault(require("../../images/gallery/tablet/colum/man-large-3.jpg"));
+var _manLarge3 = _interopRequireDefault(require("../../images/gallery/large/man-large-3.jpg"));
 
-var _manLarge4 = _interopRequireDefault(require("../../images/gallery/tablet/colum/man-large-4.jpg"));
+var _manLarge4 = _interopRequireDefault(require("../../images/gallery/large/man-large-4.jpg"));
 
-var _manLarge12x = _interopRequireDefault(require("../../images/gallery/tablet/colum/man-large-1@2x.jpg"));
+var _manLarge12x = _interopRequireDefault(require("../../images/gallery/large/man-large-1@2x.jpg"));
 
-var _manLarge22x = _interopRequireDefault(require("../../images/gallery/tablet/colum/man-large-2@2x.jpg"));
+var _manLarge22x = _interopRequireDefault(require("../../images/gallery/large/man-large-2@2x.jpg"));
 
-var _manLarge32x = _interopRequireDefault(require("../../images/gallery/tablet/colum/man-large-3@2x.jpg"));
+var _manLarge32x = _interopRequireDefault(require("../../images/gallery/large/man-large-3@2x.jpg"));
 
-var _manLarge42x = _interopRequireDefault(require("../../images/gallery/tablet/colum/man-large-4@2x.jpg"));
+var _manLarge42x = _interopRequireDefault(require("../../images/gallery/large/man-large-4@2x.jpg"));
 
-var _womanLarge = _interopRequireDefault(require("../../images/gallery/tablet/colum/woman-large-1.jpg"));
+var _womanLarge = _interopRequireDefault(require("../../images/gallery/large/woman-large-1.jpg"));
 
-var _womanLarge2 = _interopRequireDefault(require("../../images/gallery/tablet/colum/woman-large-2.jpg"));
+var _womanLarge2 = _interopRequireDefault(require("../../images/gallery/large/woman-large-2.jpg"));
 
-var _womanLarge3 = _interopRequireDefault(require("../../images/gallery/tablet/colum/woman-large-3.jpg"));
+var _womanLarge3 = _interopRequireDefault(require("../../images/gallery/large/woman-large-3.jpg"));
 
-var _womanLarge4 = _interopRequireDefault(require("../../images/gallery/tablet/colum/woman-large-4.jpg"));
+var _womanLarge4 = _interopRequireDefault(require("../../images/gallery/large/woman-large-4.jpg"));
 
-var _womanLarge12x = _interopRequireDefault(require("../../images/gallery/tablet/colum/woman-large-1@2x.jpg"));
+var _womanLarge12x = _interopRequireDefault(require("../../images/gallery/large/woman-large-1@2x.jpg"));
 
-var _womanLarge22x = _interopRequireDefault(require("../../images/gallery/tablet/colum/woman-large-2@2x.jpg"));
+var _womanLarge22x = _interopRequireDefault(require("../../images/gallery/large/woman-large-2@2x.jpg"));
 
-var _womanLarge32x = _interopRequireDefault(require("../../images/gallery/tablet/colum/woman-large-3@2x.jpg"));
+var _womanLarge32x = _interopRequireDefault(require("../../images/gallery/large/woman-large-3@2x.jpg"));
 
-var _womanLarge42x = _interopRequireDefault(require("../../images/gallery/tablet/colum/woman-large-4@2x.jpg"));
+var _womanLarge42x = _interopRequireDefault(require("../../images/gallery/large/woman-large-4@2x.jpg"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const data_woman_tablet = [{
+const data_woman = [{
   id: "1",
   woman: _womanLarge.default,
   woman_2x: _womanLarge12x.default,
@@ -289,8 +289,8 @@ const data_woman_tablet = [{
   woman_2x: _womanLarge42x.default,
   name: "Фото в термобілизні жінка - 4"
 }];
-exports.data_woman_tablet = data_woman_tablet;
-const data_man_tablet = [{
+exports.data_woman = data_woman;
+const data_man = [{
   id: "1",
   man: _manLarge.default,
   man_2x: _manLarge12x.default,
@@ -311,8 +311,8 @@ const data_man_tablet = [{
   man_2x: _manLarge42x.default,
   name: "Фото в термобілизні чоловік - 4"
 }];
-exports.data_man_tablet = data_man_tablet;
-},{"../../images/gallery/tablet/colum/man-large-1.jpg":"images/gallery/tablet/colum/man-large-1.jpg","../../images/gallery/tablet/colum/man-large-2.jpg":"images/gallery/tablet/colum/man-large-2.jpg","../../images/gallery/tablet/colum/man-large-3.jpg":"images/gallery/tablet/colum/man-large-3.jpg","../../images/gallery/tablet/colum/man-large-4.jpg":"images/gallery/tablet/colum/man-large-4.jpg","../../images/gallery/tablet/colum/man-large-1@2x.jpg":"images/gallery/tablet/colum/man-large-1@2x.jpg","../../images/gallery/tablet/colum/man-large-2@2x.jpg":"images/gallery/tablet/colum/man-large-2@2x.jpg","../../images/gallery/tablet/colum/man-large-3@2x.jpg":"images/gallery/tablet/colum/man-large-3@2x.jpg","../../images/gallery/tablet/colum/man-large-4@2x.jpg":"images/gallery/tablet/colum/man-large-4@2x.jpg","../../images/gallery/tablet/colum/woman-large-1.jpg":"images/gallery/tablet/colum/woman-large-1.jpg","../../images/gallery/tablet/colum/woman-large-2.jpg":"images/gallery/tablet/colum/woman-large-2.jpg","../../images/gallery/tablet/colum/woman-large-3.jpg":"images/gallery/tablet/colum/woman-large-3.jpg","../../images/gallery/tablet/colum/woman-large-4.jpg":"images/gallery/tablet/colum/woman-large-4.jpg","../../images/gallery/tablet/colum/woman-large-1@2x.jpg":"images/gallery/tablet/colum/woman-large-1@2x.jpg","../../images/gallery/tablet/colum/woman-large-2@2x.jpg":"images/gallery/tablet/colum/woman-large-2@2x.jpg","../../images/gallery/tablet/colum/woman-large-3@2x.jpg":"images/gallery/tablet/colum/woman-large-3@2x.jpg","../../images/gallery/tablet/colum/woman-large-4@2x.jpg":"images/gallery/tablet/colum/woman-large-4@2x.jpg"}],"js/common/refs.js":[function(require,module,exports) {
+exports.data_man = data_man;
+},{"../../images/gallery/large/man-large-1.jpg":"images/gallery/large/man-large-1.jpg","../../images/gallery/large/man-large-2.jpg":"images/gallery/large/man-large-2.jpg","../../images/gallery/large/man-large-3.jpg":"images/gallery/large/man-large-3.jpg","../../images/gallery/large/man-large-4.jpg":"images/gallery/large/man-large-4.jpg","../../images/gallery/large/man-large-1@2x.jpg":"images/gallery/large/man-large-1@2x.jpg","../../images/gallery/large/man-large-2@2x.jpg":"images/gallery/large/man-large-2@2x.jpg","../../images/gallery/large/man-large-3@2x.jpg":"images/gallery/large/man-large-3@2x.jpg","../../images/gallery/large/man-large-4@2x.jpg":"images/gallery/large/man-large-4@2x.jpg","../../images/gallery/large/woman-large-1.jpg":"images/gallery/large/woman-large-1.jpg","../../images/gallery/large/woman-large-2.jpg":"images/gallery/large/woman-large-2.jpg","../../images/gallery/large/woman-large-3.jpg":"images/gallery/large/woman-large-3.jpg","../../images/gallery/large/woman-large-4.jpg":"images/gallery/large/woman-large-4.jpg","../../images/gallery/large/woman-large-1@2x.jpg":"images/gallery/large/woman-large-1@2x.jpg","../../images/gallery/large/woman-large-2@2x.jpg":"images/gallery/large/woman-large-2@2x.jpg","../../images/gallery/large/woman-large-3@2x.jpg":"images/gallery/large/woman-large-3@2x.jpg","../../images/gallery/large/woman-large-4@2x.jpg":"images/gallery/large/woman-large-4@2x.jpg"}],"js/common/refs.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -321,10 +321,6 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var _default = {
   box_gallery: document.querySelector(".box-gallery"),
-  // source_mobile_man: document.querySelector(".source-mobile-man"),
-  // source_tablet_man: document.querySelector(".source-tablet-man"),
-  // source_mobile_woman: document.querySelector(".source-mobile-woman"),
-  // source_tablet_woman: document.querySelector(".source-tablet-woman"),
   img_large_man: document.querySelector(".img-large-man"),
   img_large_woman: document.querySelector(".img-large-woman"),
   item_man_small: document.querySelectorAll(".man-small-photo"),
@@ -388,12 +384,12 @@ _refs.default.box_gallery.addEventListener("click", onClickGallery);
 function onClickGallery(e) {
   if (e.target.classList.contains("man-small-photo")) {
     removeItemBg(_refs.default.item_man_small);
-    showCurrentPhoto(e.target, _galleryPhoto.data_man_tablet, _refs.default.img_large_man);
+    showCurrentPhoto(e.target, _galleryPhoto.data_man, _refs.default.img_large_man);
   }
 
   if (e.target.classList.contains("woman-small-photo")) {
     removeItemBg(_refs.default.item_woman_small);
-    showCurrentPhoto(e.target, _galleryPhoto.data_woman_tablet, _refs.default.img_large_woman);
+    showCurrentPhoto(e.target, _galleryPhoto.data_woman, _refs.default.img_large_woman);
   }
 }
 
@@ -13369,7 +13365,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "1900" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "5955" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
