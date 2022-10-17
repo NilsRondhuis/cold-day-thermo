@@ -229,6 +229,12 @@ p {
   box-shadow: 0px 12px 20px -5px rgba(34, 60, 80, 0.2);
   transition: all 250ms linear;
 }
+.order-btn:active {
+  background-color: var(--white-cl);
+}
+.order-btn:disabled {
+  opacity: 0.7;
+}
 
 .section-title {
   margin-bottom: 30px;
@@ -480,6 +486,32 @@ p {
 }
 
 .submit-message-error.is-show {
+  transform: translateY(0);
+}
+
+.up-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  transform: translateY(150%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  background-image: linear-gradient(150deg, rgb(49, 90, 143) 0%, rgb(172, 198, 212) 100%);
+  box-shadow: 0px 2px 15px 0px rgba(34, 60, 80, 0.3);
+  transition: all 150ms linear;
+  cursor: pointer;
+  z-index: 10;
+}
+.up-btn .icon {
+  width: 25px;
+  height: 25px;
+  fill: var(--white-cl);
+}
+.up-btn.up-btn__is-show {
   transform: translateY(0);
 }
 
