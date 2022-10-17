@@ -194,23 +194,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\images\\icons\\form\\cross.png":[["cross.941452fd.png","images/icons/form/cross.png"],"images/icons/form/cross.png"],"./..\\images\\icons\\form\\check.png":[["check.08538fc9.png","images/icons/form/check.png"],"images/icons/form/check.png"],"./..\\images\\hero\\mobile\\item-1.png":[["item-1.b5f28c89.png","images/hero/mobile/item-1.png"],"images/hero/mobile/item-1.png"],"./..\\images\\hero\\mobile\\item-1@2x.png":[["item-1@2x.ba127519.png","images/hero/mobile/item-1@2x.png"],"images/hero/mobile/item-1@2x.png"],"./..\\images\\hero\\tablet\\item-1.png":[["item-1.cf869039.png","images/hero/tablet/item-1.png"],"images/hero/tablet/item-1.png"],"./..\\images\\hero\\tablet\\item-1@2x.png":[["item-1@2x.77f5fa21.png","images/hero/tablet/item-1@2x.png"],"images/hero/tablet/item-1@2x.png"],"./..\\images\\hero\\desktop\\item-1.png":[["item-1.232ca4cf.png","images/hero/desktop/item-1.png"],"images/hero/desktop/item-1.png"],"./..\\images\\hero\\desktop\\item-1@2x.png":[["item-1@2x.b70d808a.png","images/hero/desktop/item-1@2x.png"],"images/hero/desktop/item-1@2x.png"],"./..\\images\\about\\desktop\\bg.png":[["bg.c0426cc1.png","images/about/desktop/bg.png"],"images/about/desktop/bg.png"],"./..\\images\\about\\desktop\\bg@2x.png":[["bg@2x.c8d23038.png","images/about/desktop/bg@2x.png"],"images/about/desktop/bg@2x.png"],"./..\\images\\icons\\colum\\temp.png":[["temp.774a80e8.png","images/icons/colum/temp.png"],"images/icons/colum/temp.png"],"./..\\images\\table\\desktop\\bg.png":[["bg.e356337b.png","images/table/desktop/bg.png"],"images/table/desktop/bg.png"],"./..\\images\\table\\desktop\\bg@2x.png":[["bg@2x.09c0189a.png","images/table/desktop/bg@2x.png"],"images/table/desktop/bg@2x.png"],"./..\\images\\icons\\how-work\\form.png":[["form.76001d0e.png","images/icons/how-work/form.png"],"images/icons/how-work/form.png"],"./..\\images\\icons\\how-work\\delivery.png":[["delivery.fc6b2825.png","images/icons/how-work/delivery.png"],"images/icons/how-work/delivery.png"],"./..\\images\\icons\\how-work\\courier.png":[["courier.89d75a8d.png","images/icons/how-work/courier.png"],"images/icons/how-work/courier.png"],"./..\\images\\how-work\\tablet\\bg.png":[["bg.4eac925a.png","images/how-work/tablet/bg.png"],"images/how-work/tablet/bg.png"],"./..\\images\\how-work\\tablet\\bg@2x.png":[["bg@2x.77a5cd73.png","images/how-work/tablet/bg@2x.png"],"images/how-work/tablet/bg@2x.png"],"./..\\images\\how-work\\desktop\\bg.png":[["bg.9ee7d023.png","images/how-work/desktop/bg.png"],"images/how-work/desktop/bg.png"],"./..\\images\\how-work\\desktop\\bg@2x.png":[["bg@2x.40ad8720.png","images/how-work/desktop/bg@2x.png"],"images/how-work/desktop/bg@2x.png"],"./..\\images\\order-form\\mobile\\bg.png":[["bg.e44e7a03.png","images/order-form/mobile/bg.png"],"images/order-form/mobile/bg.png"],"./..\\images\\order-form\\mobile\\bg@2x.png":[["bg@2x.0484ae8b.png","images/order-form/mobile/bg@2x.png"],"images/order-form/mobile/bg@2x.png"],"./..\\images\\order-form\\tablet\\bg.png":[["bg.a4b98e47.png","images/order-form/tablet/bg.png"],"images/order-form/tablet/bg.png"],"./..\\images\\order-form\\tablet\\bg@2x.png":[["bg@2x.0521f424.png","images/order-form/tablet/bg@2x.png"],"images/order-form/tablet/bg@2x.png"],"./..\\images\\order-form\\desktop\\bg.png":[["bg.3f859f5a.png","images/order-form/desktop/bg.png"],"images/order-form/desktop/bg.png"],"./..\\images\\order-form\\desktop\\bg@2x.png":[["bg@2x.bbef9184.png","images/order-form/desktop/bg@2x.png"],"images/order-form/desktop/bg@2x.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"images/gallery/mobile/colum/man-large-1.jpg":[function(require,module,exports) {
-module.exports = "/man-large-1.f09035d4.jpg";
-},{}],"images/gallery/mobile/colum/man-large-2.jpg":[function(require,module,exports) {
-module.exports = "/man-large-2.a756be6b.jpg";
-},{}],"images/gallery/mobile/colum/man-large-3.jpg":[function(require,module,exports) {
-module.exports = "/man-large-3.4e1e2609.jpg";
-},{}],"images/gallery/mobile/colum/man-large-4.jpg":[function(require,module,exports) {
-module.exports = "/man-large-4.c7d289b7.jpg";
-},{}],"images/gallery/mobile/colum/man-large-1@2x.jpg":[function(require,module,exports) {
-module.exports = "/man-large-1@2x.7bd4a96b.jpg";
-},{}],"images/gallery/mobile/colum/man-large-2@2x.jpg":[function(require,module,exports) {
-module.exports = "/man-large-2@2x.153b64af.jpg";
-},{}],"images/gallery/mobile/colum/man-large-3@2x.jpg":[function(require,module,exports) {
-module.exports = "/man-large-3@2x.550db7d2.jpg";
-},{}],"images/gallery/mobile/colum/man-large-4@2x.jpg":[function(require,module,exports) {
-module.exports = "/man-large-4@2x.678ac22e.jpg";
-},{}],"images/gallery/tablet/colum/man-large-1.jpg":[function(require,module,exports) {
+},{"./..\\images\\icons\\form\\cross.png":[["cross.941452fd.png","images/icons/form/cross.png"],"images/icons/form/cross.png"],"./..\\images\\icons\\form\\check.png":[["check.08538fc9.png","images/icons/form/check.png"],"images/icons/form/check.png"],"./..\\images\\hero\\mobile\\item-1.png":[["item-1.b5f28c89.png","images/hero/mobile/item-1.png"],"images/hero/mobile/item-1.png"],"./..\\images\\hero\\mobile\\item-1@2x.png":[["item-1@2x.ba127519.png","images/hero/mobile/item-1@2x.png"],"images/hero/mobile/item-1@2x.png"],"./..\\images\\hero\\tablet\\item-1.png":[["item-1.cf869039.png","images/hero/tablet/item-1.png"],"images/hero/tablet/item-1.png"],"./..\\images\\hero\\tablet\\item-1@2x.png":[["item-1@2x.77f5fa21.png","images/hero/tablet/item-1@2x.png"],"images/hero/tablet/item-1@2x.png"],"./..\\images\\hero\\desktop\\item-1.png":[["item-1.232ca4cf.png","images/hero/desktop/item-1.png"],"images/hero/desktop/item-1.png"],"./..\\images\\hero\\desktop\\item-1@2x.png":[["item-1@2x.b70d808a.png","images/hero/desktop/item-1@2x.png"],"images/hero/desktop/item-1@2x.png"],"./..\\images\\about\\desktop\\bg.png":[["bg.c0426cc1.png","images/about/desktop/bg.png"],"images/about/desktop/bg.png"],"./..\\images\\about\\desktop\\bg@2x.png":[["bg@2x.c8d23038.png","images/about/desktop/bg@2x.png"],"images/about/desktop/bg@2x.png"],"./..\\images\\icons\\colum\\temp.png":[["temp.774a80e8.png","images/icons/colum/temp.png"],"images/icons/colum/temp.png"],"./..\\images\\table\\desktop\\bg.png":[["bg.e356337b.png","images/table/desktop/bg.png"],"images/table/desktop/bg.png"],"./..\\images\\table\\desktop\\bg@2x.png":[["bg@2x.09c0189a.png","images/table/desktop/bg@2x.png"],"images/table/desktop/bg@2x.png"],"./..\\images\\icons\\how-work\\form.png":[["form.76001d0e.png","images/icons/how-work/form.png"],"images/icons/how-work/form.png"],"./..\\images\\icons\\how-work\\delivery.png":[["delivery.fc6b2825.png","images/icons/how-work/delivery.png"],"images/icons/how-work/delivery.png"],"./..\\images\\icons\\how-work\\courier.png":[["courier.89d75a8d.png","images/icons/how-work/courier.png"],"images/icons/how-work/courier.png"],"./..\\images\\how-work\\tablet\\bg.png":[["bg.4eac925a.png","images/how-work/tablet/bg.png"],"images/how-work/tablet/bg.png"],"./..\\images\\how-work\\tablet\\bg@2x.png":[["bg@2x.77a5cd73.png","images/how-work/tablet/bg@2x.png"],"images/how-work/tablet/bg@2x.png"],"./..\\images\\how-work\\desktop\\bg.png":[["bg.9ee7d023.png","images/how-work/desktop/bg.png"],"images/how-work/desktop/bg.png"],"./..\\images\\how-work\\desktop\\bg@2x.png":[["bg@2x.40ad8720.png","images/how-work/desktop/bg@2x.png"],"images/how-work/desktop/bg@2x.png"],"./..\\images\\order-form\\mobile\\bg.png":[["bg.e44e7a03.png","images/order-form/mobile/bg.png"],"images/order-form/mobile/bg.png"],"./..\\images\\order-form\\mobile\\bg@2x.png":[["bg@2x.0484ae8b.png","images/order-form/mobile/bg@2x.png"],"images/order-form/mobile/bg@2x.png"],"./..\\images\\order-form\\tablet\\bg.png":[["bg.a4b98e47.png","images/order-form/tablet/bg.png"],"images/order-form/tablet/bg.png"],"./..\\images\\order-form\\tablet\\bg@2x.png":[["bg@2x.0521f424.png","images/order-form/tablet/bg@2x.png"],"images/order-form/tablet/bg@2x.png"],"./..\\images\\order-form\\desktop\\bg.png":[["bg.3f859f5a.png","images/order-form/desktop/bg.png"],"images/order-form/desktop/bg.png"],"./..\\images\\order-form\\desktop\\bg@2x.png":[["bg@2x.bbef9184.png","images/order-form/desktop/bg@2x.png"],"images/order-form/desktop/bg@2x.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"images/gallery/tablet/colum/man-large-1.jpg":[function(require,module,exports) {
 module.exports = "/man-large-1.7be89acc.jpg";
 },{}],"images/gallery/tablet/colum/man-large-2.jpg":[function(require,module,exports) {
 module.exports = "/man-large-2.a1b70ca2.jpg";
@@ -226,22 +210,6 @@ module.exports = "/man-large-2@2x.31578546.jpg";
 module.exports = "/man-large-3@2x.45072567.jpg";
 },{}],"images/gallery/tablet/colum/man-large-4@2x.jpg":[function(require,module,exports) {
 module.exports = "/man-large-4@2x.790dcbd4.jpg";
-},{}],"images/gallery/mobile/colum/woman-large-1.jpg":[function(require,module,exports) {
-module.exports = "/woman-large-1.e617c9ae.jpg";
-},{}],"images/gallery/mobile/colum/woman-large-2.jpg":[function(require,module,exports) {
-module.exports = "/woman-large-2.f26cadcf.jpg";
-},{}],"images/gallery/mobile/colum/woman-large-3.jpg":[function(require,module,exports) {
-module.exports = "/woman-large-3.93981741.jpg";
-},{}],"images/gallery/mobile/colum/woman-large-4.jpg":[function(require,module,exports) {
-module.exports = "/woman-large-4.e87c1e26.jpg";
-},{}],"images/gallery/mobile/colum/woman-large-1@2x.jpg":[function(require,module,exports) {
-module.exports = "/woman-large-1@2x.e43e29f3.jpg";
-},{}],"images/gallery/mobile/colum/woman-large-2@2x.jpg":[function(require,module,exports) {
-module.exports = "/woman-large-2@2x.6aa0eae1.jpg";
-},{}],"images/gallery/mobile/colum/woman-large-3@2x.jpg":[function(require,module,exports) {
-module.exports = "/woman-large-3@2x.1bfa2149.jpg";
-},{}],"images/gallery/mobile/colum/woman-large-4@2x.jpg":[function(require,module,exports) {
-module.exports = "/woman-large-4@2x.30fa442a.jpg";
 },{}],"images/gallery/tablet/colum/woman-large-1.jpg":[function(require,module,exports) {
 module.exports = "/woman-large-1.5fb24fd4.jpg";
 },{}],"images/gallery/tablet/colum/woman-large-2.jpg":[function(require,module,exports) {
@@ -264,147 +232,87 @@ module.exports = "/woman-large-4@2x.f6b05ce6.jpg";
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.data_woman_tablet = exports.data_woman_mobile = exports.data_man_tablet = exports.data_man_mobile = void 0;
+exports.data_woman_tablet = exports.data_man_tablet = void 0;
 
-var _manLarge = _interopRequireDefault(require("../../images/gallery/mobile/colum/man-large-1.jpg"));
+var _manLarge = _interopRequireDefault(require("../../images/gallery/tablet/colum/man-large-1.jpg"));
 
-var _manLarge2 = _interopRequireDefault(require("../../images/gallery/mobile/colum/man-large-2.jpg"));
+var _manLarge2 = _interopRequireDefault(require("../../images/gallery/tablet/colum/man-large-2.jpg"));
 
-var _manLarge3 = _interopRequireDefault(require("../../images/gallery/mobile/colum/man-large-3.jpg"));
+var _manLarge3 = _interopRequireDefault(require("../../images/gallery/tablet/colum/man-large-3.jpg"));
 
-var _manLarge4 = _interopRequireDefault(require("../../images/gallery/mobile/colum/man-large-4.jpg"));
+var _manLarge4 = _interopRequireDefault(require("../../images/gallery/tablet/colum/man-large-4.jpg"));
 
-var _manLarge12x = _interopRequireDefault(require("../../images/gallery/mobile/colum/man-large-1@2x.jpg"));
+var _manLarge12x = _interopRequireDefault(require("../../images/gallery/tablet/colum/man-large-1@2x.jpg"));
 
-var _manLarge22x = _interopRequireDefault(require("../../images/gallery/mobile/colum/man-large-2@2x.jpg"));
+var _manLarge22x = _interopRequireDefault(require("../../images/gallery/tablet/colum/man-large-2@2x.jpg"));
 
-var _manLarge32x = _interopRequireDefault(require("../../images/gallery/mobile/colum/man-large-3@2x.jpg"));
+var _manLarge32x = _interopRequireDefault(require("../../images/gallery/tablet/colum/man-large-3@2x.jpg"));
 
-var _manLarge42x = _interopRequireDefault(require("../../images/gallery/mobile/colum/man-large-4@2x.jpg"));
+var _manLarge42x = _interopRequireDefault(require("../../images/gallery/tablet/colum/man-large-4@2x.jpg"));
 
-var _manLarge5 = _interopRequireDefault(require("../../images/gallery/tablet/colum/man-large-1.jpg"));
+var _womanLarge = _interopRequireDefault(require("../../images/gallery/tablet/colum/woman-large-1.jpg"));
 
-var _manLarge6 = _interopRequireDefault(require("../../images/gallery/tablet/colum/man-large-2.jpg"));
+var _womanLarge2 = _interopRequireDefault(require("../../images/gallery/tablet/colum/woman-large-2.jpg"));
 
-var _manLarge7 = _interopRequireDefault(require("../../images/gallery/tablet/colum/man-large-3.jpg"));
+var _womanLarge3 = _interopRequireDefault(require("../../images/gallery/tablet/colum/woman-large-3.jpg"));
 
-var _manLarge8 = _interopRequireDefault(require("../../images/gallery/tablet/colum/man-large-4.jpg"));
+var _womanLarge4 = _interopRequireDefault(require("../../images/gallery/tablet/colum/woman-large-4.jpg"));
 
-var _manLarge12x2 = _interopRequireDefault(require("../../images/gallery/tablet/colum/man-large-1@2x.jpg"));
+var _womanLarge12x = _interopRequireDefault(require("../../images/gallery/tablet/colum/woman-large-1@2x.jpg"));
 
-var _manLarge22x2 = _interopRequireDefault(require("../../images/gallery/tablet/colum/man-large-2@2x.jpg"));
+var _womanLarge22x = _interopRequireDefault(require("../../images/gallery/tablet/colum/woman-large-2@2x.jpg"));
 
-var _manLarge32x2 = _interopRequireDefault(require("../../images/gallery/tablet/colum/man-large-3@2x.jpg"));
+var _womanLarge32x = _interopRequireDefault(require("../../images/gallery/tablet/colum/woman-large-3@2x.jpg"));
 
-var _manLarge42x2 = _interopRequireDefault(require("../../images/gallery/tablet/colum/man-large-4@2x.jpg"));
-
-var _womanLarge = _interopRequireDefault(require("../../images/gallery/mobile/colum/woman-large-1.jpg"));
-
-var _womanLarge2 = _interopRequireDefault(require("../../images/gallery/mobile/colum/woman-large-2.jpg"));
-
-var _womanLarge3 = _interopRequireDefault(require("../../images/gallery/mobile/colum/woman-large-3.jpg"));
-
-var _womanLarge4 = _interopRequireDefault(require("../../images/gallery/mobile/colum/woman-large-4.jpg"));
-
-var _womanLarge12x = _interopRequireDefault(require("../../images/gallery/mobile/colum/woman-large-1@2x.jpg"));
-
-var _womanLarge22x = _interopRequireDefault(require("../../images/gallery/mobile/colum/woman-large-2@2x.jpg"));
-
-var _womanLarge32x = _interopRequireDefault(require("../../images/gallery/mobile/colum/woman-large-3@2x.jpg"));
-
-var _womanLarge42x = _interopRequireDefault(require("../../images/gallery/mobile/colum/woman-large-4@2x.jpg"));
-
-var _womanLarge5 = _interopRequireDefault(require("../../images/gallery/tablet/colum/woman-large-1.jpg"));
-
-var _womanLarge6 = _interopRequireDefault(require("../../images/gallery/tablet/colum/woman-large-2.jpg"));
-
-var _womanLarge7 = _interopRequireDefault(require("../../images/gallery/tablet/colum/woman-large-3.jpg"));
-
-var _womanLarge8 = _interopRequireDefault(require("../../images/gallery/tablet/colum/woman-large-4.jpg"));
-
-var _womanLarge12x2 = _interopRequireDefault(require("../../images/gallery/tablet/colum/woman-large-1@2x.jpg"));
-
-var _womanLarge22x2 = _interopRequireDefault(require("../../images/gallery/tablet/colum/woman-large-2@2x.jpg"));
-
-var _womanLarge32x2 = _interopRequireDefault(require("../../images/gallery/tablet/colum/woman-large-3@2x.jpg"));
-
-var _womanLarge42x2 = _interopRequireDefault(require("../../images/gallery/tablet/colum/woman-large-4@2x.jpg"));
+var _womanLarge42x = _interopRequireDefault(require("../../images/gallery/tablet/colum/woman-large-4@2x.jpg"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const data_woman_mobile = [{
-  id: "1",
-  woman: `${_womanLarge.default} 300w`,
-  woman_2x: `${_womanLarge12x.default} 600w`
-}, {
-  id: "2",
-  woman: `${_womanLarge2.default} 300w`,
-  woman_2x: `${_womanLarge22x.default} 600w`
-}, {
-  id: "3",
-  woman: `${_womanLarge3.default} 300w`,
-  woman_2x: `${_womanLarge32x.default} 600w`
-}, {
-  id: "4",
-  woman: `${_womanLarge4.default} 300w`,
-  woman_2x: `${_womanLarge42x.default} 600w`
-}];
-exports.data_woman_mobile = data_woman_mobile;
 const data_woman_tablet = [{
   id: "1",
-  woman: `${_womanLarge5.default} 403w`,
-  woman_2x: `${_womanLarge12x2.default} 804w`
+  woman: _womanLarge.default,
+  woman_2x: _womanLarge12x.default,
+  name: "Фото в термобілизні жінка - 1"
 }, {
   id: "2",
-  woman: `${_womanLarge6.default} 403w`,
-  woman_2x: `${_womanLarge22x2.default} 804w`
+  woman: _womanLarge2.default,
+  woman_2x: _womanLarge22x.default,
+  name: "Фото в термобілизні жінка - 2"
 }, {
   id: "3",
-  woman: `${_womanLarge7.default} 403w`,
-  woman_2x: `${_womanLarge32x2.default} 804w`
+  woman: _womanLarge3.default,
+  woman_2x: _womanLarge32x.default,
+  name: "Фото в термобілизні жінка - 3"
 }, {
   id: "4",
-  woman: `${_womanLarge8.default} 403w`,
-  woman_2x: `${_womanLarge42x2.default} 804w`
+  woman: _womanLarge4.default,
+  woman_2x: _womanLarge42x.default,
+  name: "Фото в термобілизні жінка - 4"
 }];
 exports.data_woman_tablet = data_woman_tablet;
-const data_man_mobile = [{
-  id: "1",
-  man: `${_manLarge.default} 300w`,
-  man_2x: `${_manLarge12x.default} 600w`
-}, {
-  id: "2",
-  man: `${_manLarge2.default} 300w`,
-  man_2x: `${_manLarge22x.default} 600w`
-}, {
-  id: "3",
-  man: `${_manLarge3.default} 300w`,
-  man_2x: `${_manLarge32x.default} 600w`
-}, {
-  id: "4",
-  man: `${_manLarge4.default} 300w`,
-  man_2x: `${_manLarge42x.default} 600w`
-}];
-exports.data_man_mobile = data_man_mobile;
 const data_man_tablet = [{
   id: "1",
-  man: `${_manLarge5.default} 403w`,
-  man_2x: `${_manLarge12x2.default} 806w`
+  man: _manLarge.default,
+  man_2x: _manLarge12x.default,
+  name: "Фото в термобілизні чоловік - 1"
 }, {
   id: "2",
-  man: `${_manLarge6.default} 403w`,
-  man_2x: `${_manLarge22x2.default} 806w`
+  man: _manLarge2.default,
+  man_2x: _manLarge22x.default,
+  name: "Фото в термобілизні чоловік - 2"
 }, {
   id: "3",
-  man: `${_manLarge7.default} 403w`,
-  man_2x: `${_manLarge32x2.default} 806w`
+  man: _manLarge3.default,
+  man_2x: _manLarge32x.default,
+  name: "Фото в термобілизні чоловік - 3"
 }, {
   id: "4",
-  man: `${_manLarge8.default} 403w`,
-  man_2x: `${_manLarge42x2.default} 806w`
+  man: _manLarge4.default,
+  man_2x: _manLarge42x.default,
+  name: "Фото в термобілизні чоловік - 4"
 }];
 exports.data_man_tablet = data_man_tablet;
-},{"../../images/gallery/mobile/colum/man-large-1.jpg":"images/gallery/mobile/colum/man-large-1.jpg","../../images/gallery/mobile/colum/man-large-2.jpg":"images/gallery/mobile/colum/man-large-2.jpg","../../images/gallery/mobile/colum/man-large-3.jpg":"images/gallery/mobile/colum/man-large-3.jpg","../../images/gallery/mobile/colum/man-large-4.jpg":"images/gallery/mobile/colum/man-large-4.jpg","../../images/gallery/mobile/colum/man-large-1@2x.jpg":"images/gallery/mobile/colum/man-large-1@2x.jpg","../../images/gallery/mobile/colum/man-large-2@2x.jpg":"images/gallery/mobile/colum/man-large-2@2x.jpg","../../images/gallery/mobile/colum/man-large-3@2x.jpg":"images/gallery/mobile/colum/man-large-3@2x.jpg","../../images/gallery/mobile/colum/man-large-4@2x.jpg":"images/gallery/mobile/colum/man-large-4@2x.jpg","../../images/gallery/tablet/colum/man-large-1.jpg":"images/gallery/tablet/colum/man-large-1.jpg","../../images/gallery/tablet/colum/man-large-2.jpg":"images/gallery/tablet/colum/man-large-2.jpg","../../images/gallery/tablet/colum/man-large-3.jpg":"images/gallery/tablet/colum/man-large-3.jpg","../../images/gallery/tablet/colum/man-large-4.jpg":"images/gallery/tablet/colum/man-large-4.jpg","../../images/gallery/tablet/colum/man-large-1@2x.jpg":"images/gallery/tablet/colum/man-large-1@2x.jpg","../../images/gallery/tablet/colum/man-large-2@2x.jpg":"images/gallery/tablet/colum/man-large-2@2x.jpg","../../images/gallery/tablet/colum/man-large-3@2x.jpg":"images/gallery/tablet/colum/man-large-3@2x.jpg","../../images/gallery/tablet/colum/man-large-4@2x.jpg":"images/gallery/tablet/colum/man-large-4@2x.jpg","../../images/gallery/mobile/colum/woman-large-1.jpg":"images/gallery/mobile/colum/woman-large-1.jpg","../../images/gallery/mobile/colum/woman-large-2.jpg":"images/gallery/mobile/colum/woman-large-2.jpg","../../images/gallery/mobile/colum/woman-large-3.jpg":"images/gallery/mobile/colum/woman-large-3.jpg","../../images/gallery/mobile/colum/woman-large-4.jpg":"images/gallery/mobile/colum/woman-large-4.jpg","../../images/gallery/mobile/colum/woman-large-1@2x.jpg":"images/gallery/mobile/colum/woman-large-1@2x.jpg","../../images/gallery/mobile/colum/woman-large-2@2x.jpg":"images/gallery/mobile/colum/woman-large-2@2x.jpg","../../images/gallery/mobile/colum/woman-large-3@2x.jpg":"images/gallery/mobile/colum/woman-large-3@2x.jpg","../../images/gallery/mobile/colum/woman-large-4@2x.jpg":"images/gallery/mobile/colum/woman-large-4@2x.jpg","../../images/gallery/tablet/colum/woman-large-1.jpg":"images/gallery/tablet/colum/woman-large-1.jpg","../../images/gallery/tablet/colum/woman-large-2.jpg":"images/gallery/tablet/colum/woman-large-2.jpg","../../images/gallery/tablet/colum/woman-large-3.jpg":"images/gallery/tablet/colum/woman-large-3.jpg","../../images/gallery/tablet/colum/woman-large-4.jpg":"images/gallery/tablet/colum/woman-large-4.jpg","../../images/gallery/tablet/colum/woman-large-1@2x.jpg":"images/gallery/tablet/colum/woman-large-1@2x.jpg","../../images/gallery/tablet/colum/woman-large-2@2x.jpg":"images/gallery/tablet/colum/woman-large-2@2x.jpg","../../images/gallery/tablet/colum/woman-large-3@2x.jpg":"images/gallery/tablet/colum/woman-large-3@2x.jpg","../../images/gallery/tablet/colum/woman-large-4@2x.jpg":"images/gallery/tablet/colum/woman-large-4@2x.jpg"}],"js/common/refs.js":[function(require,module,exports) {
+},{"../../images/gallery/tablet/colum/man-large-1.jpg":"images/gallery/tablet/colum/man-large-1.jpg","../../images/gallery/tablet/colum/man-large-2.jpg":"images/gallery/tablet/colum/man-large-2.jpg","../../images/gallery/tablet/colum/man-large-3.jpg":"images/gallery/tablet/colum/man-large-3.jpg","../../images/gallery/tablet/colum/man-large-4.jpg":"images/gallery/tablet/colum/man-large-4.jpg","../../images/gallery/tablet/colum/man-large-1@2x.jpg":"images/gallery/tablet/colum/man-large-1@2x.jpg","../../images/gallery/tablet/colum/man-large-2@2x.jpg":"images/gallery/tablet/colum/man-large-2@2x.jpg","../../images/gallery/tablet/colum/man-large-3@2x.jpg":"images/gallery/tablet/colum/man-large-3@2x.jpg","../../images/gallery/tablet/colum/man-large-4@2x.jpg":"images/gallery/tablet/colum/man-large-4@2x.jpg","../../images/gallery/tablet/colum/woman-large-1.jpg":"images/gallery/tablet/colum/woman-large-1.jpg","../../images/gallery/tablet/colum/woman-large-2.jpg":"images/gallery/tablet/colum/woman-large-2.jpg","../../images/gallery/tablet/colum/woman-large-3.jpg":"images/gallery/tablet/colum/woman-large-3.jpg","../../images/gallery/tablet/colum/woman-large-4.jpg":"images/gallery/tablet/colum/woman-large-4.jpg","../../images/gallery/tablet/colum/woman-large-1@2x.jpg":"images/gallery/tablet/colum/woman-large-1@2x.jpg","../../images/gallery/tablet/colum/woman-large-2@2x.jpg":"images/gallery/tablet/colum/woman-large-2@2x.jpg","../../images/gallery/tablet/colum/woman-large-3@2x.jpg":"images/gallery/tablet/colum/woman-large-3@2x.jpg","../../images/gallery/tablet/colum/woman-large-4@2x.jpg":"images/gallery/tablet/colum/woman-large-4@2x.jpg"}],"js/common/refs.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -413,11 +321,12 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var _default = {
   box_gallery: document.querySelector(".box-gallery"),
-  source_mobile_man: document.querySelector(".source-mobile-man"),
-  source_tablet_man: document.querySelector(".source-tablet-man"),
-  source_mobile_woman: document.querySelector(".source-mobile-woman"),
-  source_tablet_woman: document.querySelector(".source-tablet-woman"),
-  img_man: document.querySelector(".img-man"),
+  // source_mobile_man: document.querySelector(".source-mobile-man"),
+  // source_tablet_man: document.querySelector(".source-tablet-man"),
+  // source_mobile_woman: document.querySelector(".source-mobile-woman"),
+  // source_tablet_woman: document.querySelector(".source-tablet-woman"),
+  img_large_man: document.querySelector(".img-large-man"),
+  img_large_woman: document.querySelector(".img-large-woman"),
   item_man_small: document.querySelectorAll(".man-small-photo"),
   item_woman_small: document.querySelectorAll(".woman-small-photo"),
   form: document.querySelector(".form"),
@@ -474,29 +383,21 @@ var _galleryPhoto = require("./data/gallery-photo");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-if (navigator.userAgent.match(/ipad|ipod|iphone/i)) {
-  _refs.default.box_gallery.addEventListener("touchstart", onClickGallery);
-} else _refs.default.box_gallery.addEventListener("click", onClickGallery);
+_refs.default.box_gallery.addEventListener("click", onClickGallery);
 
 function onClickGallery(e) {
   if (e.target.classList.contains("man-small-photo")) {
     removeItemBg(_refs.default.item_man_small);
-
-    if (document.body.clientWidth < 768) {
-      showCurrentPhoto(e.target, _galleryPhoto.data_man_mobile, _refs.default.source_mobile_man, _refs.default.img_man);
-    } else showCurrentPhoto(e.target, _galleryPhoto.data_man_tablet, _refs.default.source_tablet_man, _refs.default.img_man);
+    showCurrentPhoto(e.target, _galleryPhoto.data_man_tablet, _refs.default.img_large_man);
   }
 
   if (e.target.classList.contains("woman-small-photo")) {
     removeItemBg(_refs.default.item_woman_small);
-
-    if (document.body.clientWidth < 768) {
-      showCurrentPhoto(e.target, _galleryPhoto.data_woman_mobile, _refs.default.source_mobile_woman);
-    } else showCurrentPhoto(e.target, _galleryPhoto.data_woman_tablet, _refs.default.source_tablet_woman);
+    showCurrentPhoto(e.target, _galleryPhoto.data_woman_tablet, _refs.default.img_large_woman);
   }
 }
 
-function showCurrentPhoto(el, data, source, img) {
+function showCurrentPhoto(el, data, img) {
   el.classList.add("on-show-photo");
   const current_id = el.dataset.id;
   const photo = data.find(_ref => {
@@ -507,9 +408,14 @@ function showCurrentPhoto(el, data, source, img) {
   });
 
   if (photo.hasOwnProperty("man")) {
-    img.src = `${photo.man}`;
-    source.srcset = `${photo.man}, ${photo.man_2x}`;
-  } else source.srcset = `${photo.woman}, ${photo.woman_2x}`;
+    img.src = photo.man;
+    img.srcset = `${photo.man} 1x, ${photo.man_2x} 2x`;
+    img.alt = photo.name;
+  } else {
+    img.src = photo.woman;
+    img.srcset = `${photo.woman} 1x, ${photo.woman_2x} 2x`;
+    img.alt = photo.name;
+  }
 }
 
 function removeItemBg(item) {
@@ -13463,7 +13369,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "14265" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "1900" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
