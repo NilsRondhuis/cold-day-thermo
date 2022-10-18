@@ -489,6 +489,26 @@ p {
   transform: translateY(0);
 }
 
+.privacy-body {
+  color: var(--white-cl);
+  background-color: var(--main-cl);
+}
+
+.section-policy {
+  text-align: justify;
+}
+.section-policy .title {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.section-policy p {
+  margin-bottom: 20px;
+}
+.section-policy ul {
+  padding-left: 30px;
+  list-style: square;
+}
+
 .up-btn {
   position: fixed;
   bottom: 20px;
@@ -554,6 +574,7 @@ p {
   font-size: 24px;
   line-height: 1.2;
   font-weight: 700;
+  text-decoration: line-through;
   color: var(--white-cl);
 }
 .box-sale .new-price {
@@ -808,6 +829,11 @@ p {
 
 .gallery-list-content {
   margin-bottom: 20px;
+}
+.gallery-list-content .text-material {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .gallery-list-content .text .bold {
   font-weight: 700;
