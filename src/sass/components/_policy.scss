@@ -1,0 +1,22 @@
+.privacy-body {
+  color: var(--white-cl);
+  background-color: var(--main-cl);
+}
+
+.section-policy {
+  text-align: justify;
+
+  .title {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
+
+  ul {
+    padding-left: 30px;
+    list-style: square;
+  }
+}
